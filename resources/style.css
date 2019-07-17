@@ -1,3 +1,7 @@
-p {
-  color: blue
+/* Universal Styles */
+
+html {
+  font-size: 16px;
+  font-family: Helvetica;
+  
 }
