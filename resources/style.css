@@ -2,6 +2,87 @@
 
 html {
   font-size: 16px;
-  font-family: Helvetica;
-  
+  font-family: Helvetica, san-serif;
 }
+
+h4 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+
+}
+
+
+/* Header */
+.banner {
+  background-color: black;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+
+.logo span {
+  font-size: 1rem;
+  padding: 1rem .66rem;
+}
+
+.logo img {
+  height: 1.5rem;
+  padding-left: .5rem;
+}
+
+.pix {
+  height: 25rem;
+  background-image: url("moto.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pix .container {
+  display: flex;
+}
+
+.arrival {
+  width: 20rem;
+  margin-top: 9rem;
+  background-color: black;
+  color: white;
+}
+
+.arrival h4 {
+  padding: 2rem 3rem .25rem 3rem;
+}
+
+.arrival h1 {
+  padding-left: 3rem;
+  padding-bottom: 2rem;
+}
+
+nav {
+  background-color: firebrick;
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: .75rem 0;
+}
+
+/* Store */
