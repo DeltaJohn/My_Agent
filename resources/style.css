@@ -86,3 +86,61 @@ ul {
 }
 
 /* Store */
+
+.store .container .product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 3rem auto;
+  border: solid blue 1px;
+}
+
+.pen, .watch, .glasses {
+  text-align: center;
+  width: 30%;
+  border: solid black 4px;
+}
+
+.pen img, .watch img, .glasses img {
+  height: 9rem;
+  margin: 2rem auto;
+  border: solid blue 1px;
+}
+
+.pen h4, .watch h4, .glasses h4 {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  background-color: black;
+  color: white;
+}
+
+.store .container .info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 3rem auto;
+}
+
+.location, .hours {
+  width: 35%;
+}
+
+.location h4, .hours h4 {
+  background-color: black;
+  padding: 1rem 2rem;
+  color: white;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 5rem;
+  margin-top: 4rem;
+  background-color: black;
+  color: white;
+}
