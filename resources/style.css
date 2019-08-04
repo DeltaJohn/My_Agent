@@ -91,7 +91,7 @@ ul {
 
 /* Store */
 
-.store .container .product {
+.product {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -121,7 +121,7 @@ ul {
   color: white;
 }
 
-.store .container .info {
+.info {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -190,7 +190,7 @@ ul {
 
 /* Screen phone size - 460px or less */
 
-@media only screen and (max-width: 460px) {
+@media only screen and (max-width: 560px) {
 
   .arrival h4 {
     font-size: .77rem;
@@ -198,4 +198,47 @@ ul {
   .arrival h1 {
     font-size: 1rem;
   }
+
+
+.glasses, .watch {
+  display: none;
+}
+
+.product {
+  display: flex;
+  justify-content: center;
+}
+
+.info {
+  dispaly: flex;
+  flex-direction: column;
+}
+
+.pen, .location, .hours {
+  width: 90%;
+}
+.hours {
+  margin-top: .5rem;
+}
+
+.pix {
+  height: 15rem;
+}
+
+.arrival {
+  margin-top: 10rem;
+  width: 100%;
+}
+
+
+.arrival h1 {
+  font-size: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+}
+.arrival h4 {
+  font-size: .77rem;
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
 }
