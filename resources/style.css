@@ -159,7 +159,7 @@ ul {
 
 /* Screen tablet size - 768px or less */
 
-@media only screen and (max-width: 968px) {
+@media only screen and (max-width: 768px) {
 
   nav ul {
     display: none;
@@ -190,7 +190,7 @@ ul {
 
 /* Screen phone size - 460px or less */
 
-@media only screen and (max-width: 560px) {
+@media only screen and (max-width: 460px) {
 
   .arrival h4 {
     font-size: .77rem;
